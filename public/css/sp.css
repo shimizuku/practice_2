@@ -1,0 +1,630 @@
+
+
+/*
+font-family: 'Supermercado One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
+
+/*スマホ用メディアクエリ*/
+@media screen and (max-width:767px){
+/*ヘッター*/
+
+.header{
+  width: 90%;
+  margin: 0 auto;
+  padding: 1% 0 1% 0;
+}
+
+
+.hhh{
+  text-align: center;
+}
+
+.mmm{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+ul.menu-b{
+  padding: 0;
+}
+
+ul.menu-b li {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 44%;
+  margin: 4% 2%;
+}
+
+ul.menu-b img{
+  width: 100%;
+}
+
+/*ホームのページ*/
+.home-top{
+  width: 100%;
+}
+
+.home-top img{
+  width: 100%;
+}
+
+.about{
+  width: 100%;
+  padding-bottom: 8%;
+}
+
+.about p{
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+}
+
+.about-text {
+  width: 95%;
+  margin: 0 auto;
+  color: #343129;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.about-text p{
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.about-img{
+  width: 90%;
+  margin:0 auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.about-img img{
+	width:100%;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
+}
+
+.about-123{
+  width: 100%;
+}
+
+.about-123 h3{
+  text-align: center;
+  background-color: #CC6666;
+  color: #ffffff;
+}
+.sec1,
+.sec2,
+.sec3{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sec1-pic img,
+.sec2-pic img,
+.sec3-pic img{
+  width: 100%;
+}
+
+.sec1-text,
+.sec2-text,
+.sec3-text{
+  width: 95%;
+  margin: 0 auto;
+  color: #852106;
+  text-align: left;
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+
+.sp-img img{
+  width: 100%;
+}
+
+.sp-box{
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  border: solid 3px #8f8876;
+}
+
+.sp-box p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #343129;
+  margin: 0;
+  padding: 0;
+}
+
+.shampoo-text{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  color: #433b3b;
+}
+
+.sp-text-h{
+  text-align: center;
+}
+
+.sp-text-p{
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.recommendation{
+  width: 90%;
+  margin: auto;
+}
+
+.rd-box{
+  display: inline-block;
+  font-weight: bold;
+  border: solid 3px #8f8876;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.rd-box p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #343129;
+  margin: 0;
+  padding: 0;
+}
+
+
+.rd-img{
+  width: 100%;
+  margin-left: 1.3%;
+}
+
+.rd-img img{
+  width:100%;
+}
+
+
+#slideshow {
+   position: relative;
+   width:100%; /* 画像の横幅に合わせて記述 */
+   padding:50% 0;
+}
+#slideshow img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#slideshow img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#slideshow img.last-active {
+   z-index: 9;
+}
+
+
+.recommendation-text{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  color: #433b3b;
+}
+
+.rd-text-p{
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.treatment{
+  width: 100%;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
+}*/
+
+
+
+.treat-text{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: #858106;
+  padding-bottom: 5%;
+}
+
+.treat-text h3{
+  background-color: #858106;
+  color: #ffffff;
+}
+
+.relax-time{
+  width: 100%;
+  background: url(../images/relaxtime.jpg)no-repeat;
+  background-size: cover;
+}
+
+.relax-t-text{
+  width: 70%;
+  padding: 5%;
+  font-size: 0.8em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.total{
+  width: 100%;
+}
+.informatio1,
+.informatio2{
+  width: 100%;
+}
+
+.informatio1 p,
+.informatio2 p{
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+  text-align: center;
+}
+
+.facebook{
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.facebook-img{
+  width: 30%;
+  float: left;
+}
+
+.facebook-text{
+  width: 60%;
+  float: right;
+}
+
+.total iframe{
+  width: 97%;
+  padding-left: 3%;
+}
+
+.htp-coupon,
+.andi-coupon{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.htp-c-img,
+.andi-c-img{
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.htp-c-text{
+  width: 95%;
+  margin: 0 auto;
+  color: #343129;
+}
+
+.andi-c-text{
+  width: 100%;
+  color: #343129;
+  padding-bottom: 5%;
+}
+
+.andi-c-text p{
+  padding-left: 8%
+}
+
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
+}*/
+
+footer{
+  width: 100%;
+  background: #e6e6e6;
+  padding:5% 0 5% 0;
+  overflow: hidden;
+  font-size: 0.8em;
+  font-family: '小塚ゴシック Pr6N'sans-serif;
+  font-weight: bold;
+}
+
+.footer-footer{
+  width:90%;
+  margin: 0 auto;
+}
+
+.f-left{
+  float: left;
+  color: #996666;
+}
+
+.f-right{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.f-right table{
+  width: 100%;
+}
+
+.f-right table td{
+  text-align: left;
+  color: #996666;
+}
+
+.op{
+  padding-top: 3%;
+}
+
+
+/*-----------ここからACCESS----------------------------*/
+
+.access{
+  width: 100%;
+}
+
+.access img{
+  width: 100%;
+}
+
+.access p{
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+}
+
+.train{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.train-text{
+  color: #343129;
+}
+
+.train-text h2,
+.car-text h2{
+  padding-bottom: 5%;
+  text-align: center;
+  color: #343129;
+}
+
+.train-text p{
+  font-size: 1em;
+  text-align: left;
+}
+
+.train-img{
+  text-align: center;
+}
+
+.train-img img{
+  width: 90%;
+}
+
+.car-text{
+  color: #343129;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.g-map-sp{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 7%;
+}
+.g-map-sp iframe{
+  width: 95%;
+}
+
+
+/*ーーーーーーーーーーーーーここからスタイリストーーーーーーーーーーーーーーーーー*/
+
+.scissors{
+  width: 90%;
+margin: 0 auto;
+}
+
+.scissors img{
+  width: 100%;
+}
+
+#slideshow2 {
+   position: relative;
+   width:  350px; /* 画像の横幅に合わせて記述 */
+   height: 200px; /* 画像の高さに合わせて記述 */
+}
+#slideshow2 img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+   width: 90%;
+}
+#slideshow2 img.active2 {
+   z-index: 10;
+   opacity: 1.0;
+   width: 90%;
+}
+#slideshow2 img.last-active2 {
+   z-index: 9;
+   width: 90%;
+}
+.stylist{
+  width: 100%;
+}
+
+.stylist-intro{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stylist-intro p{
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+}
+
+.stylist-intro2 h2{
+  margin-bottom: 0;
+  text-align: center;
+  color: #343129;
+}
+
+.stylist-intro2 h3{
+  text-align: center;
+  color: #343129;
+}
+
+.stylist-intro2 p{
+  margin-top: 0;
+  text-align: center;
+  color: #343129;
+}
+
+.stylist-stylist{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.stylist-pic img{
+  width: 100%;
+}
+
+.stylist-message{
+  width: 100%;
+}
+
+/*ここからヘアカタログ*/
+
+.hair-model{
+  width: 100%;
+}
+
+.hair-model p{
+  width: 100%;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+}
+
+.model-pic{
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.model-pic img{
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+/*ーーーーーーーーーーーーープライス（MENU)ーーーーーーーーーーーーーー*/
+.menu{
+  width:90%;
+  margin: 0 auto;
+}
+
+.menu-pic img{
+  width: 100%;
+}
+
+.menu h1{
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 3.5em;
+  color: #343129;
+}
+
+.sp-menu{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cut{
+  color: #343129;
+  width: 100%;
+  padding-bottom: 5%;
+  background:url(../images/model1-h.png)no-repeat right center;
+  background-size: 70%;
+}
+.parm{
+  color: #343129;
+  width: 100%;
+  padding-bottom: 5%;
+  background:url(../images/model10-hh.png)no-repeat right center;
+  background-size: 70%;
+}
+
+.treat{
+  color: #343129;
+  width: 100%;
+  padding-bottom: 5%;
+  background:url(../images/model3-h.png)no-repeat right center;
+  background-size: 70%;
+}
+
+.other{
+  color: #343129;
+  width: 100%;
+  padding-bottom: 5%;
+  background:url(../images/other-h.png)no-repeat right center;
+  background-size: 70%;
+}
+
+.menu-last-text{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.menu-last-text p{
+  text-align: left;
+}
+
+.exmple-sp-menu{
+  color:#343129;
+  width:100%;
+  padding-bottom:5%;
+  background-size:70%;
+}
+}
